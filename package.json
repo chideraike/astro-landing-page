@@ -2,6 +2,9 @@
   "name": "@example/starter",
   "version": "0.0.1",
   "private": true,
+  "browserslist": [
+    "defaults"
+  ],
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -9,7 +12,11 @@
     "preview": "astro preview"
   },
   "devDependencies": {
-    "astro": "^0.25.2"
+    "astro": "^0.25.2",
+    "autoprefixer": "^10.4.4",
+    "open-props": "^1.3.9",
+    "postcss": "^8.4.12",
+    "postcss-jit-props": "^1.0.5"
   },
   "dependencies": {
     "astro-icon": "^0.6.1"
