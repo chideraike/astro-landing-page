@@ -5,6 +5,7 @@
   "browserslist": [
     "defaults"
   ],
+  "format": "yarn prettier -w .",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -16,7 +17,8 @@
     "autoprefixer": "^10.4.4",
     "open-props": "^1.3.9",
     "postcss": "^8.4.12",
-    "postcss-jit-props": "^1.0.5"
+    "postcss-jit-props": "^1.0.5",
+    "prettier-plugin-astro": "^0.0.12"
   },
   "dependencies": {
     "astro-icon": "^0.6.1"
