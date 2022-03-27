@@ -1,28 +1,28 @@
 [
   {
-    "name": "John Doe",
-    "content": "iquam vel nibh amet, vitae at purus dui semper vel facilisis enim",
+    "name": "Chidera Ike",
+    "content": "Our site is very fast and responsive which makes it easy for my business to scale to more customers.",
     "avatar": "/assets/avatar-1.jpeg",
     "active": true
   },
   {
     "name": "Christian Jones",
-    "content": "iquam vel nibh amet, vitae at purus dui semper vel facilisis enim",
+    "content": "Customers recommended our site cause it was very user friendly and easy to use.",
     "avatar": "/assets/avatar-2.jpeg"
   },
   {
     "name": "Clarence Robinson",
-    "content": "iquam vel nibh amet, vitae at purus dui semper vel facilisis enim vel facilisis enim",
+    "content": "I am very satisfied with the service provided by the company. They are very good at what they do.",
     "avatar": "/assets/avatar-3.jpeg"
   },
   {
     "name": "Kathleen Alday",
-    "content": "iquam amet, vitae at purus dui semper vel facilisis enim",
+    "content": "The design of the site is very good and the customer service is very good.",
     "avatar": "/assets/avatar-4.jpeg"
   },
   {
     "name": "Tina Givens",
-    "content": "iquam vel nibh amet, vitae at purus enim enim dui semper vel facilisis enim",
+    "content": "People are very friendly and helpful.",
     "avatar": "/assets/avatar-5.jpeg"
   }
 ]

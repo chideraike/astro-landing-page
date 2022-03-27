@@ -2,22 +2,27 @@
 import { Icon } from "astro-icon";
 const navLinks = [
   {
-    name: "Home",
-    url: "/",
+    name: "Services",
+    url: "#services",
+    style: "transparent",
+  },
+  {
+    name: "Reviews",
+    url: "#reviews",
+    style: "transparent",
+  },
+  {
+    name: "Clients",
+    url: "#clients",
     style: "transparent",
   },
   {
     name: "Pricing",
-    url: "#",
+    url: "#pricing",
     style: "transparent",
   },
   {
-    name: "About",
-    url: "#",
-    style: "transparent",
-  },
-  {
-    name: "Contact Me",
+    name: "Contact Us",
     url: "#",
     style: "primary",
   },
@@ -26,7 +31,9 @@ const navLinks = [
 
 <nav>
   <div class="container nav-container">
-    <Icon name="logo" width={225} class="logo" />
+    <a href="/">
+      <Icon name="logo" width={225} class="logo" />
+    </a>
     <div class="nav-wrapper">
       <button
         class="btn btn--menu"

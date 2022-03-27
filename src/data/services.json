@@ -1,32 +1,32 @@
 [
   {
     "icon": "feather:code",
-    "name": "Custom Coding",
-    "content": "Vel eget eu vestibulum mauris et ut hendrerit aliquam vel nibh amet, vitae at purus dui semper vel facilisis enim"
+    "name": "Clean Code",
+    "content": "Built from the ground up using the latest web standards and technologies with powerful frameworks and libraries to ensure that your website is as fast and secure as possible."
   },
   {
     "icon": "feather:users",
     "name": "User Friendly",
-    "content": "Vel eget eu vestibulum mauris et ut hendrerit aliquam iquam vel nibh amet, vitae at purus dui semper vel facilisis enim vel nibh amet, vitae at purus dui semper vel facilisis enim"
+    "content": "Delivering a world class user experience in your website is our top priority."
   },
   {
     "icon": "feather:search",
     "name": "SEO Optimized",
-    "content": "Vel eget eu vestibulum mauris et ut hendrerit aliquam vel nibh amet, vitae at purus dui semper vel facilisis enim"
+    "content": "We use the latest SEO techniques to ensure that your website is as optimized as possible and users can find your business."
   },
   {
     "icon": "feather:trending-up",
     "name": "Built for Growth",
-    "content": "Vel eget eu vestibulum mauris et ut hendrerit aliquam vel nibh amet, vitae at vitae a vitae a purus dui semper vel facilisis enim"
+    "content": "Scaling up has never been easier. We build websites that grow with your business and are always up to date with the latest technologies."
   },
   {
     "icon": "feather:smartphone",
     "name": "Ready for Mobile",
-    "content": "Vel eget eu vestibulum mauris et ut hendrerit aliquam vel nibh amet, vitae at purus dui semper vel facilisis enim"
+    "content": "Our websites are built for mobile devices first and then optimized for other devices, so you can be sure that your website will look great on any device."
   },
   {
     "icon": "feather:home",
     "name": "Feels like you",
-    "content": "Vel eget eu vestibulum mauris et ut hendrerit aliquam vel nibh amet, vitae at purus dui semper vel facilisis enim"
+    "content": "Our websites are built for you by you. We also make sure that your website is as easy to use as possible."
   }
 ]

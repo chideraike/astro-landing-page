@@ -33,6 +33,10 @@ svg {
   );
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @media (min-width: 768px) {
   html {
     font-size: 130%;
@@ -59,8 +63,8 @@ body {
 
 main {
   display: grid;
-  gap: var(--size-fluid-6);
-  padding: var(--size-fluid-5) var(--size-fluid-2);
+  gap: var(--size-fluid-7);
+  padding: var(--size-fluid-5) var(--size-fluid-4);
 }
 
 .container {
@@ -231,8 +235,7 @@ small {
 @media (min-width: 768px) {
   .blur::after,
   .blur::before {
-    /* filter: blur(120px); */
-    filter: blur(50px);
+    filter: blur(120px);
   }
 }
 
@@ -241,7 +244,7 @@ small {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: var(--size-fluid-2);
+  padding: var(--size-fluid-2) var(--size-fluid-4);
 }
 
 .nav-links,
@@ -318,9 +321,8 @@ header {
 /* SERVICES */
 .services {
   display: flex;
-  /* justify-content: flex-start; */
   flex-wrap: wrap;
-  align-items: start;
+  align-items: flex-start;
   gap: var(--size-fluid-3);
 }
 
@@ -520,6 +522,7 @@ header {
 
 .pricing-card-feature {
   display: flex;
+  align-items: center;
   gap: var(--size-2);
 }
 
