@@ -1,10 +1,8 @@
-# Welcome to [Astro](https://astro.build)
+# Landing Page
 
-![landing-page](https://user-images.githubusercontent.com/42821245/160297093-d4e67cd1-080a-43c0-9fe8-d74146a1c18d.png)
+![landing-page-preview](https://user-images.githubusercontent.com/42821245/160297093-d4e67cd1-080a-43c0-9fe8-d74146a1c18d.png)
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/starter)
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+# ⚡️  Built with [Astro](https://astro.build)
 
 ## 🚀 Project Structure
 
