@@ -6,7 +6,7 @@ let isMoving;
 let currentIndex = 1;
 
 function showActiveIndicator() {
-    indicators.forEach(ind => ind.classList.remove('active'));
+    indicators.forEach((ind) => ind.classList.remove('active'));
     let activeIndicator;
     if (currentIndex === 0 || currentIndex === reviews.length - 2) {
         activeIndicator = indicators.length - 1;
@@ -38,11 +38,11 @@ function handleIndicatorClick(e) {
 }
 
 // Event listeners
-reviewBtn.forEach(btn => {
+reviewBtn.forEach((btn) => {
     btn.addEventListener('click', handleReviewBtnClick)
 });
 
-indicators.forEach(ind => {
+indicators.forEach((ind) => {
     ind.addEventListener('click', handleIndicatorClick)
 });
 

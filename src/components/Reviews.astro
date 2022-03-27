@@ -52,8 +52,7 @@ import data from '../data/reviews.json';
 
         <div class="indicator-container">
             {data.map(review => (
-                <button class="indicator ${review?.active && 'active'}">
-                </button>
+                <button class={`indicator ${review?.active && 'active'}`}></button>
             ))}
         </div>
 
