@@ -1,5 +1,25 @@
 ---
+import { Icon } from "astro-icon";
 import BaseLayout from "../layouts/BaseLayout.astro";
+import Hero from "../components/Hero.astro";
+import Services from "../components/Services.astro";
+import Reviews from "../components/Reviews.astro";
 ---
 
-<BaseLayout title="Landing Page" />
+<BaseLayout title="Landing Page">
+  <Hero />
+
+  <section class="programmer container blur grid-sm">
+    <Icon
+      name="programmer"
+      width="400px"
+      class="programmer-icon"
+      alt="Programmer picture"
+      aria-hidden="true"
+    />
+  </section>
+
+  <Services />
+
+  <Reviews />
+</BaseLayout>
