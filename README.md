@@ -1,8 +1,6 @@
 # Welcome to [Astro](https://astro.build)
 
-
-https://user-images.githubusercontent.com/42821245/160296802-b799c625-0056-4acf-b919-7211dad05458.mov
-
+![landing-page](https://user-images.githubusercontent.com/42821245/160297093-d4e67cd1-080a-43c0-9fe8-d74146a1c18d.png)
 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/starter)
 
