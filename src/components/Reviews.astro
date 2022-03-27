@@ -1,19 +1,72 @@
 ---
 import { Icon } from "astro-icon";
-import data from '../data/services.json';
+import data from '../data/reviews.json';
 ---
 
-<section class="services container-sm">
-<h2 class="sr-only"></h2>
-{
-    data.map(service => (
-        <div class="service">
-            <div class="service--icon text-white">
-                <Icon name={service.icon} width="30" />
-            </div>
-            <h3>{service.name}</h3>
-            <p class="text-muted">{service.content}</p>
+<section class="reviews-wrapper blur">
+    <h2 class="sr-only">Reviews</h2>
+    <div class="reviews-container container-xs">
+        <button
+            class="review-btn grid-sm review-btn--prev" 
+            id="prev" 
+            aria-label="Previous review"
+        >
+            <Icon name="feather:chevron-left" width="50" />
+        </button>
+
+        <div class="reviews">
+            {data.slice(data.length - 1).map(review => (
+                <div class="review grid-sm">
+                    <img 
+                        src={review.avatar}
+                        alt={review.name}
+                        class="review-avatar"
+                    />
+                    <p class="review-content">{review.content}</p>
+                    <p class="review-name text-gradient h3">{review.name}</p>
+                </div>
+            ))}
+            {data.map(review => (
+                <div class="review grid-sm">
+                    <img 
+                        src={review.avatar}
+                        alt={review.name}
+                        class="review-avatar"
+                    />
+                    <p class="review-content">{review.content}</p>
+                    <p class="review-name text-gradient h3">{review.name}</p>
+                </div>
+            ))}
+            {data.slice(0, 1).map(review => (
+                <div class="review grid-sm">
+                    <img 
+                        src={review.avatar}
+                        alt={review.name}
+                        class="review-avatar"
+                    />
+                    <p class="review-content">{review.content}</p>
+                    <p class="review-name text-gradient h3">{review.name}</p>
+                </div>
+            ))}
         </div>
-    ))
-}
+
+        <div class="indicator-container">
+            {data.map(review => (
+                <button class="indicator ${review?.active && 'active'}">
+                </button>
+            ))}
+        </div>
+
+        <button
+            class="review-btn grid-sm review-btn--next" 
+            id="next" 
+            aria-label="Next review"
+        >
+            <Icon name="feather:chevron-right" width="50" />
+        </button>
+    </div>
 </section>
+
+<script hoist type="module">
+  import "../js/reviews.js";
+</script>
